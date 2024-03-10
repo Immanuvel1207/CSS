@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left {
+    width: 300px;
+    background-color: #5d5093;
+}
+
+.right {
+    flex: 1; /* Use remaining space */
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #FFE3CA;
+}
+
+.upper {
+    margin-top: 200; /* If you want to adjust margin, use pixels (e.g., 200px) */
+}
+
+#image {
+    margin: 70px; /* Adjust margin if necessary */
+    border-radius: 50%;
+    border: solid 6px;
+    width: 130px;
+    height: 140px;
+    border-color: gray;
+}
+
+#links {
+    padding: 20px;
+    margin-left: 80px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#link {
+    text-decoration: none;
+}
+
+.darkgreen {
+    color: darkgreen;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+#addtag {
+    margin-left: 200; /* Adjust margin if necessary */
+}
